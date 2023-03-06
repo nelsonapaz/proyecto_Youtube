@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    top: 0px;
+    text-decoration: none;
+    cursor: pointer ;
+    }
+body{
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 07% 93%;
+    background-color: white;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 5px;
+}
+aside a:hover {
+    background-color: rgba(215, 215, 205, 0.415);
+    border-bottom: 10px;
+    border-width: 30vw;
+    border-radius: 8px;
+}
+aside a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+aside a p{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-top: -5px;
+}
+aside a img{
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#caja_1{
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+#caja_1 img{
+    width: 30px;
+    height: 30px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+}
+nav a img{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+    #logo_Youtube img{
+        width: 85px;
+        height: 25px;
+        margin-left: 0px;
+        margin-right: 150px;
+    }
+    #buscador input{
+    box-sizing: border-box;
+        width: 550px;
+        height: 40px;
+        border-radius: 25px 0px 0px 25px;
+        margin: 0px;
+}
+    #buscador img{
+        width: 40px;
+        height: 40px;
+        background-color: rgba(242, 242, 234, 0.415);
+        border-radius: 0px 10px 10px 0px;
+        border: solid;
+        border-width: 2px;
+        border-color: rgb(114, 114, 114);
+        display: flex;
+        flex-direction: row;
+        margin-left: -2px;
+        margin-right: 10px;
+    }
+    #lupa:hover{
+        background-color: rgba(215, 215, 205, 0.415);
+        border-bottom: 10px;
+        border-width: 30vw;
+        border-radius: 8px;
+    }
+    #microphone img{
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    #create_Video img{
+        width: 32px;
+        height: 32px;
+        margin-right: 10px;
+        margin-left: 240px; 
+    }
+    #white_Bell img{
+        width: 32px;
+        height: 32px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    #channel img{
+        width: 32px;
+        height: 32px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 31px;
+}
+button{
+    width: auto;
+    height: 30px;
+    background-color: rgba(215, 215, 205, 0.415);
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+ button:hover {
+    background-color: rgba(158, 158, 152, 0.415);
+ }
+    
+
+.grid-layout{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+section div div img{
+    width: 270px;
+    height: 160px;
+    margin: 8px;
+    border-radius: 12px;
+}
+section div div div img{
+width: 30px;
+height: 30px;
+}
+section div div div h3{
+    margin-left: 50px;
+    margin-top: -45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 4px;
+}
+section div div div p{
+    margin-left: 50px;
+    margin-top: 5px;
+    font-weight: 2px;
+}
